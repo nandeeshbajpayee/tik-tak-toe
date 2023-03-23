@@ -1,0 +1,66 @@
+*{ 
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+#super{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    height: 300px;
+    width: 300px;
+    outline: 4px solid rgb(255, 255, 255);
+    margin: auto auto;
+    top: 150px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    cursor: pointer;
+    user-select: none;
+    color: rgb(102, 101, 101);
+    font-size: 40px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    outline: 2px solid grey;
+}
+#play_again{
+    color: rgb(42, 50, 47);
+    position: absolute; 
+    user-select: none;
+    width: 100px;
+    height: 50px;
+    top: 540px;
+    left: 590px;
+}
+#winner{
+    font-size: 20px;
+    align-items: center;
+    color: grey;
+    position: absolute; 
+    user-select: none;
+    width: 300px;
+    height: 50px;
+    top: 500px;
+    left: 540px;
+}
+/*#cut{
+    top: 200px;
+    position: absolute;
+    width: 250px;
+    height: 5px;
+    background-color: rgb(230, 123, 123);
+    border: none;
+    border-radius: 100px;
+}*/
